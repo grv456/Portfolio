@@ -1,0 +1,202 @@
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #07111f;
+}
+
+.hidden {
+  display: none;
+}
+
+.bg-ink {
+  background-color: #07111f;
+}
+
+.bg-ink\/75 {
+  background-color: rgba(7, 17, 31, 0.75);
+}
+
+.text-ink {
+  color: #07111f;
+}
+
+.text-cyber,
+.hover\:text-cyber:hover {
+  color: #00d8a7;
+}
+
+.text-signal {
+  color: #f59e0b;
+}
+
+.bg-cyber,
+.hover\:bg-cyber:hover {
+  background-color: #00d8a7;
+}
+
+.bg-cyber\/10 {
+  background-color: rgba(0, 216, 167, 0.1);
+}
+
+.bg-cyber\/15 {
+  background-color: rgba(0, 216, 167, 0.15);
+}
+
+.bg-cyber\/20 {
+  background-color: rgba(0, 216, 167, 0.2);
+}
+
+.bg-signal\/10 {
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+.bg-alert\/20 {
+  background-color: rgba(251, 113, 133, 0.2);
+}
+
+.bg-alert {
+  background-color: #fb7185;
+}
+
+.bg-signal {
+  background-color: #f59e0b;
+}
+
+.border-cyber\/40 {
+  border-color: rgba(0, 216, 167, 0.4);
+}
+
+.border-cyber\/50 {
+  border-color: rgba(0, 216, 167, 0.5);
+}
+
+.hover\:border-signal\/70:hover {
+  border-color: rgba(245, 158, 11, 0.7);
+}
+
+.shadow-glow {
+  box-shadow: 0 0 70px rgba(0, 216, 167, 0.22);
+}
+
+.from-cyber\/25 {
+  --tw-gradient-from: rgba(0, 216, 167, 0.25) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(0, 216, 167, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-signal\/10 {
+  --tw-gradient-to: rgba(245, 158, 11, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgba(245, 158, 11, 0.1) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-alert\/25 {
+  --tw-gradient-to: rgba(251, 113, 133, 0.25) var(--tw-gradient-to-position);
+}
+
+.cyber-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: linear-gradient(to bottom, black, transparent 78%);
+}
+
+.profile-frame {
+  position: relative;
+}
+
+.profile-frame::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  border-radius: 1.5rem;
+  box-shadow: inset 0 0 34px rgba(0, 216, 167, 0.18);
+}
+
+.tab-button {
+  color: rgb(148 163 184);
+  transition:
+    background-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.tab-button:hover {
+  color: white;
+}
+
+.tab-button.active {
+  color: #07111f;
+  background: #00d8a7;
+  transform: translateY(-1px);
+}
+
+.experience-card,
+.skill-tile,
+.contact-link {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px);
+}
+
+.experience-card {
+  min-height: 9rem;
+  padding: 1.25rem;
+  color: rgb(226 232 240);
+  line-height: 1.7;
+}
+
+.skill-tile {
+  min-height: 14rem;
+  padding: 1.35rem;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease;
+}
+
+.skill-tile:hover {
+  transform: translateY(-6px);
+  border-color: rgba(0, 216, 167, 0.45);
+  background: rgba(0, 216, 167, 0.1);
+}
+
+.skill-tile h3 {
+  margin: 0;
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 900;
+}
+
+.skill-tile p {
+  margin: 1rem 0 0;
+  color: rgb(203 213 225);
+  line-height: 1.7;
+}
+
+.contact-link {
+  display: flex;
+  min-height: 3.25rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.1rem;
+  color: white;
+  font-weight: 900;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background-color 160ms ease;
+}
+
+.contact-link:hover {
+  transform: translateY(-3px);
+  border-color: rgba(245, 158, 11, 0.7);
+  background: rgba(245, 158, 11, 0.12);
+}
+
+@media (max-width: 640px) {
+  .experience-card,
+  .skill-tile {
+    min-height: auto;
+  }
+}

@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gaurav Singh | Security Engineer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for Gaurav Singh, Security Engineer specializing in DevSecOps, observability, Elastic Stack, Splunk SIEM/SOAR, Python automation, and cloud security."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      window.tailwind = window.tailwind || {};
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "system-ui", "sans-serif"],
+            },
+            colors: {
+              ink: "#07111f",
+              cyber: "#00d8a7",
+              signal: "#f59e0b",
+              alert: "#fb7185",
+            },
+            boxShadow: {
+              glow: "0 0 70px rgba(0, 216, 167, 0.22)",
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="min-h-screen bg-ink font-sans text-slate-100 antialiased">
+    <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+      <div class="absolute inset-0 cyber-grid"></div>
+      <div class="absolute left-[-12rem] top-[-12rem] h-[32rem] w-[32rem] rounded-full bg-cyber/20 blur-3xl"></div>
+      <div class="absolute bottom-[-14rem] right-[-10rem] h-[34rem] w-[34rem] rounded-full bg-alert/20 blur-3xl"></div>
+      <div class="absolute left-1/2 top-1/3 h-[28rem] w-[28rem] -translate-x-1/2 rounded-full bg-signal/10 blur-3xl"></div>
+    </div>
+
+    <header class="sticky top-0 z-50 border-b border-white/10 bg-ink/75 backdrop-blur-xl">
+      <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 lg:px-8">
+        <a href="#top" class="flex items-center gap-3 font-black tracking-tight">
+          <span class="grid h-11 w-11 place-items-center rounded-xl border border-cyber/50 bg-cyber/15 text-cyber shadow-glow">
+            GS
+          </span>
+          <span class="hidden sm:inline">Gaurav Singh</span>
+        </a>
+        <nav class="hidden items-center gap-7 text-sm font-bold text-slate-300 md:flex" aria-label="Primary navigation">
+          <a class="transition hover:text-cyber" href="#about">About</a>
+          <a class="transition hover:text-cyber" href="#experience">Experience</a>
+          <a class="transition hover:text-cyber" href="#skills">Skills</a>
+          <a class="transition hover:text-cyber" href="#contact">Contact</a>
+        </nav>
+        <a
+          class="rounded-lg border border-cyber/40 bg-cyber/10 px-4 py-2 text-sm font-black text-cyber transition hover:bg-cyber hover:text-ink"
+          href="mailto:gauravkutlehria3@gmail.com"
+        >
+          Hire Me
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="mx-auto grid min-h-[calc(100vh-5rem)] max-w-7xl items-center gap-10 px-5 py-12 lg:grid-cols-[1.05fr_0.95fr] lg:px-8">
+        <div class="max-w-3xl">
+          <p class="mb-4 text-sm font-black uppercase tracking-[0.22em] text-cyber">
+            Security Engineer · DevSecOps · Observability
+          </p>
+          <h1 class="text-4xl font-black leading-[0.98] tracking-normal text-white sm:text-5xl lg:text-6xl">
+            I build faster threat response with automation, SIEM, and cloud security.
+          </h1>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+            I am a Security Engineer with 3+ years of experience across Splunk SIEM/SOAR,
+            Elastic Stack, threat detection, Python automation, REST APIs, and cloud security.
+            I turn noisy signals into reliable detection and response workflows.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a class="rounded-xl bg-cyber px-5 py-3 font-black text-ink shadow-glow transition hover:-translate-y-1" href="#experience">
+              View Experience
+            </a>
+            <a class="rounded-xl border border-white/15 bg-white/8 px-5 py-3 font-black text-white transition hover:-translate-y-1 hover:border-signal/70" href="https://laughing-mcnulty-e58e1b.netlify.app/">
+              Portfolio Link
+            </a>
+          </div>
+
+          <div class="mt-10 grid max-w-2xl grid-cols-3 gap-3">
+            <div class="rounded-2xl border border-white/10 bg-white/8 p-4 backdrop-blur">
+              <p class="text-3xl font-black text-white" data-count="3">0</p>
+              <p class="mt-1 text-xs font-bold uppercase tracking-wide text-slate-400">Years Experience</p>
+            </div>
+            <div class="rounded-2xl border border-white/10 bg-white/8 p-4 backdrop-blur">
+              <p class="text-3xl font-black text-white" data-count="10">0</p>
+              <p class="mt-1 text-xs font-bold uppercase tracking-wide text-slate-400">SOAR Playbooks</p>
+            </div>
+            <div class="rounded-2xl border border-white/10 bg-white/8 p-4 backdrop-blur">
+              <p class="text-3xl font-black text-white" data-count="60">0</p>
+              <p class="mt-1 text-xs font-bold uppercase tracking-wide text-slate-400">Workload Reduced</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative mx-auto w-full max-w-md lg:max-w-lg">
+          <div class="absolute -inset-6 rounded-[2rem] bg-gradient-to-br from-cyber/25 via-signal/10 to-alert/25 blur-2xl"></div>
+          <div class="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 p-5 shadow-2xl backdrop-blur-xl">
+            <div class="flex items-center justify-between">
+              <div>
+                <p class="text-sm font-black uppercase tracking-[0.18em] text-cyber">Profile</p>
+                <h2 class="mt-1 text-2xl font-black text-white">Gaurav Singh</h2>
+              </div>
+              <span class="rounded-full border border-cyber/40 bg-cyber/10 px-3 py-1 text-xs font-black text-cyber">
+                Open to remote
+              </span>
+            </div>
+
+            <div class="mt-6 grid gap-5 sm:grid-cols-[10rem_1fr]">
+              <div class="profile-frame aspect-square overflow-hidden rounded-3xl border border-white/15 bg-slate-950">
+                <img src="assets/profile-placeholder.svg" alt="Profile picture placeholder for Gaurav Singh" class="h-full w-full object-cover" />
+              </div>
+              <div class="space-y-3 text-sm text-slate-300">
+                <p class="rounded-2xl border border-white/10 bg-slate-950/70 p-4">
+                  Bengaluru based Security Engineer focused on DevSecOps, observability,
+                  SIEM/SOAR, and automation-led incident response.
+                </p>
+                <div class="grid grid-cols-2 gap-3">
+                  <span class="rounded-xl bg-cyber/10 px-3 py-2 font-bold text-cyber">GCP Certified</span>
+                  <span class="rounded-xl bg-signal/10 px-3 py-2 font-bold text-signal">Ex-Accenture</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 rounded-2xl border border-white/10 bg-slate-950/80 p-4 font-mono text-sm">
+              <div class="mb-3 flex gap-2">
+                <span class="h-3 w-3 rounded-full bg-alert"></span>
+                <span class="h-3 w-3 rounded-full bg-signal"></span>
+                <span class="h-3 w-3 rounded-full bg-cyber"></span>
+              </div>
+              <p class="text-slate-400">$ detection_pipeline --status</p>
+              <p class="mt-2 text-cyber" id="terminal-line">Reducing response time with automated triage...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="border-y border-white/10 bg-white/[0.04] px-5 py-20 lg:px-8">
+        <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.85fr_1.15fr]">
+          <div>
+            <p class="text-sm font-black uppercase tracking-[0.22em] text-cyber">About Me</p>
+            <h2 class="mt-3 text-4xl font-black leading-tight text-white lg:text-5xl">
+              Security automation with an operator's sense of urgency.
+            </h2>
+          </div>
+          <div class="space-y-5 text-lg leading-8 text-slate-300">
+            <p>
+              I design and automate threat detection workflows using Splunk SIEM, SOAR,
+              Elastic Stack, Python scripting, REST APIs, SPL queries, and observability
+              pipelines. My work connects business needs with scalable security engineering.
+            </p>
+            <p>
+              At Accenture, I built playbooks for phishing, malware, exploit triage, and insider
+              threat use cases. At Infosys, I am helping migrate monitoring systems from
+              SolarWinds to Elastic Stack and Zabbix while improving visibility across
+              infrastructure, network, and security telemetry.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+        <div class="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+          <div>
+            <p class="text-sm font-black uppercase tracking-[0.22em] text-cyber">Experience</p>
+            <h2 class="mt-3 text-4xl font-black text-white lg:text-5xl">Work that moved real systems</h2>
+          </div>
+          <div class="flex rounded-2xl border border-white/10 bg-white/8 p-1">
+            <button class="tab-button active rounded-xl px-4 py-2 text-sm font-black" data-tab="infosys">Infosys</button>
+            <button class="tab-button rounded-xl px-4 py-2 text-sm font-black" data-tab="accenture">Accenture</button>
+          </div>
+        </div>
+
+        <div class="tab-panel grid gap-5 lg:grid-cols-[0.7fr_1.3fr]" id="infosys-panel">
+          <article class="rounded-3xl border border-white/10 bg-white/8 p-6 backdrop-blur">
+            <p class="text-cyber font-black">Senior Associate Consultant</p>
+            <h3 class="mt-2 text-3xl font-black text-white">Infosys</h3>
+            <p class="mt-3 text-slate-400">February 2026 - Present · Hyderabad</p>
+          </article>
+          <div class="grid gap-4 md:grid-cols-2">
+            <div class="experience-card">Migrating enterprise monitoring from SolarWinds to Elastic Stack for Windows and Linux environments.</div>
+            <div class="experience-card">Driving Zabbix migration for Palo Alto, Fortinet, and Cisco devices with SNMP and trap-based alerting.</div>
+            <div class="experience-card">Building Kibana dashboards, Elasticsearch queries, and observability pipelines for real-time visibility.</div>
+            <div class="experience-card">Integrating Windows security logs, Syslog sources, and Active Directory Domain Controller events into Elastic.</div>
+          </div>
+        </div>
+
+        <div class="tab-panel hidden grid gap-5 lg:grid-cols-[0.7fr_1.3fr]" id="accenture-panel">
+          <article class="rounded-3xl border border-white/10 bg-white/8 p-6 backdrop-blur">
+            <p class="text-cyber font-black">Software Engineer · Associate Software Engineer</p>
+            <h3 class="mt-2 text-3xl font-black text-white">Accenture</h3>
+            <p class="mt-3 text-slate-400">February 2022 - January 2026 · Bengaluru</p>
+          </article>
+          <div class="grid gap-4 md:grid-cols-2">
+            <div class="experience-card">Led Splunk SOAR automation for phishing, malware, and exploit triage, reducing analyst workload by 60%.</div>
+            <div class="experience-card">Designed 10+ playbooks integrated with EDR, email gateways, and threat intelligence sources.</div>
+            <div class="experience-card">Built REST API connectors and automated IOC extraction pipelines for JSON-based correlation.</div>
+            <div class="experience-card">Created SPL queries and dashboards in Splunk Enterprise Security mapped to MITRE ATT&CK.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="border-y border-white/10 bg-slate-950/50 px-5 py-20 lg:px-8">
+        <div class="mx-auto max-w-7xl">
+          <div class="mb-10 max-w-3xl">
+            <p class="text-sm font-black uppercase tracking-[0.22em] text-cyber">Skill Stack</p>
+            <h2 class="mt-3 text-4xl font-black text-white lg:text-5xl">Security, observability, and automation</h2>
+          </div>
+          <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            <article class="skill-tile">
+              <h3>SIEM & SOAR</h3>
+              <p>Splunk ES, Splunk SOAR, Elastic Stack, alert triage, playbooks, notables.</p>
+            </article>
+            <article class="skill-tile">
+              <h3>Detection Engineering</h3>
+              <p>SPL queries, IOC pipelines, MITRE ATT&CK mapping, phishing and malware use cases.</p>
+            </article>
+            <article class="skill-tile">
+              <h3>Automation</h3>
+              <p>Python scripting, REST APIs, JSON correlation, enrichment workflows, operational tooling.</p>
+            </article>
+            <article class="skill-tile">
+              <h3>Observability</h3>
+              <p>Elastic, Kibana, Zabbix, OpenTelemetry, Syslog, Windows events, SLI/SLO tracking.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mx-auto grid max-w-7xl gap-8 px-5 py-20 lg:grid-cols-[1fr_auto] lg:items-center lg:px-8">
+        <div>
+          <p class="text-sm font-black uppercase tracking-[0.22em] text-cyber">Contact</p>
+          <h2 class="mt-3 text-4xl font-black text-white lg:text-5xl">Ready for security automation, cloud security, and DevSecOps roles.</h2>
+          <p class="mt-5 max-w-2xl text-lg leading-8 text-slate-300">
+            Open to global remote opportunities and relocation for Security Engineering,
+            DevSecOps, Cloud Security, SIEM/SOAR, and Observability roles.
+          </p>
+        </div>
+        <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
+          <a class="contact-link" href="mailto:gauravkutlehria3@gmail.com">gauravkutlehria3@gmail.com</a>
+          <a class="contact-link" href="tel:+919493435209">+91 94934 35209</a>
+          <a class="contact-link" href="https://www.linkedin.com/in/gauravsg1">LinkedIn</a>
+          <a class="contact-link" href="https://laughing-mcnulty-e58e1b.netlify.app/">Portfolio</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/10 px-5 py-6 text-sm text-slate-400 lg:px-8">
+      <div class="mx-auto flex max-w-7xl flex-col justify-between gap-3 sm:flex-row">
+        <p>© <span id="year"></span> Gaurav Singh. Built with Tailwind CSS for GitHub Pages.</p>
+        <a class="font-black text-cyber" href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

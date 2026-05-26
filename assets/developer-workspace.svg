@@ -1,0 +1,28 @@
+<svg width="900" height="760" viewBox="0 0 900 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Developer workspace illustration</title>
+  <desc id="desc">A colorful illustrated laptop workspace with code, notes, and interface panels.</desc>
+  <rect x="78" y="86" width="704" height="516" rx="44" fill="#ffffff"/>
+  <rect x="78" y="86" width="704" height="516" rx="44" stroke="#111827" stroke-width="8"/>
+  <rect x="134" y="148" width="396" height="272" rx="22" fill="#13202f"/>
+  <rect x="164" y="184" width="94" height="14" rx="7" fill="#2dd4bf"/>
+  <rect x="164" y="222" width="210" height="14" rx="7" fill="#f8fafc"/>
+  <rect x="164" y="260" width="154" height="14" rx="7" fill="#f59e0b"/>
+  <rect x="164" y="298" width="236" height="14" rx="7" fill="#f8fafc"/>
+  <rect x="164" y="336" width="172" height="14" rx="7" fill="#e11d48"/>
+  <rect x="560" y="148" width="166" height="272" rx="22" fill="#e0f2fe"/>
+  <circle cx="643" cy="236" r="48" fill="#0f766e"/>
+  <path d="M610 322C624 296 663 296 677 322L699 364H588L610 322Z" fill="#111827"/>
+  <rect x="148" y="458" width="578" height="82" rx="24" fill="#f1f5f9"/>
+  <rect x="178" y="486" width="116" height="18" rx="9" fill="#0f766e"/>
+  <rect x="320" y="486" width="238" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="584" y="486" width="92" height="18" rx="9" fill="#f59e0b"/>
+  <path d="M286 604H574L618 692H242L286 604Z" fill="#111827"/>
+  <path d="M242 692H618" stroke="#111827" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="129" cy="116" r="18" fill="#e11d48"/>
+  <circle cx="183" cy="116" r="18" fill="#f59e0b"/>
+  <circle cx="237" cy="116" r="18" fill="#0f766e"/>
+  <path d="M720 70L792 28L828 102L756 144L720 70Z" fill="#f59e0b" stroke="#111827" stroke-width="7"/>
+  <path d="M112 612L178 634L142 706L76 684L112 612Z" fill="#2dd4bf" stroke="#111827" stroke-width="7"/>
+  <path d="M742 512C808 522 845 562 846 632" stroke="#e11d48" stroke-width="14" stroke-linecap="round"/>
+  <path d="M74 290C32 262 22 221 48 170" stroke="#0f766e" stroke-width="14" stroke-linecap="round"/>
+</svg>
