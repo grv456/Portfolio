@@ -2,13 +2,13 @@
 
 Security Engineer focused on DevSecOps, observability, Elastic Stack, Splunk SIEM/SOAR, threat detection and response, Python automation, and cloud security.
 
-[Portfolio](https://laughing-mcnulty-e58e1b.netlify.app/) · [Email](mailto:gauravkutlehria3@gmail.com) · [LinkedIn](https://www.linkedin.com/in/gauravsg1)
+[Portfolio](https://laughing-mcnulty-e58e1b.netlify.app) · [Email](mailto:gauravkutlehria3@gmail.com) · [LinkedIn](https://www.linkedin.com/in/gauravsg1)
 
 ## About Me
 
 I have 3+ years of experience designing and automating security workflows across SIEM, SOAR, observability, and cloud-adjacent environments. I enjoy building detection pipelines, automating triage, connecting APIs, and reducing noisy manual work for security teams.
 
-At Accenture, I worked on Splunk SOAR automation for phishing, malware, exploit triage, IOC extraction, and enrichment workflows. At Infosys, I am working on observability migration from SolarWinds to Elastic Stack and Zabbix, with telemetry pipelines, Kibana dashboards, OpenTelemetry, Syslog, Windows security logs, and Active Directory event visibility.
+At Infosys, I am currently working on observability migration from SolarWinds to Elastic Stack and Zabbix, with telemetry pipelines, Kibana dashboards, OpenTelemetry, Syslog, Windows security logs, and Active Directory event visibility. Previously at Accenture, I worked on Splunk SOAR automation for phishing, malware, exploit triage, IOC extraction, and enrichment workflows.
 
 ## Core Skills
 
@@ -35,7 +35,7 @@ At Accenture, I worked on Splunk SOAR automation for phishing, malware, exploit 
 
 I built a Tailwind CSS portfolio page for my GitHub profile:
 
-[Open my portfolio](https://laughing-mcnulty-e58e1b.netlify.app/)
+[Open my portfolio](https://laughing-mcnulty-e58e1b.netlify.app)
 
 ## GitHub Stats
 

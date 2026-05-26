@@ -2,7 +2,7 @@
 <h3 align="center">A passionate Security Engineer from India</h3>
 
 <p align="center">
-  <a href="https://grv456.github.io/Portfolio/">
+  <a href="https://laughing-mcnulty-e58e1b.netlify.app">
     <img src="https://img.shields.io/badge/Portfolio-Live%20Website-00d8a7?style=for-the-badge&logo=vercel&logoColor=07111f" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/gauravsg1">
@@ -33,7 +33,7 @@
 
 - 📈 Impact highlights: **60% analyst workload reduction**, **10+ SOAR playbooks**, and **50% faster playbook deployment**
 
-- 👨‍💻 My portfolio is available at **[grv456.github.io/Portfolio](https://grv456.github.io/Portfolio/)**
+- 👨‍💻 My portfolio is available at **[laughing-mcnulty-e58e1b.netlify.app](https://laughing-mcnulty-e58e1b.netlify.app)**
 
 - 📫 Reach me at **gauravkutlehria3@gmail.com**
 
@@ -50,7 +50,7 @@
   <a href="mailto:gauravkutlehria3@gmail.com" target="_blank">
     <img align="center" src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" height="38" width="38" />
   </a>
-  <a href="https://grv456.github.io/Portfolio/" target="_blank">
+  <a href="https://laughing-mcnulty-e58e1b.netlify.app" target="_blank">
     <img align="center" src="https://cdn.simpleicons.org/vercel/FFFFFF" alt="Portfolio" height="38" width="38" />
   </a>
   <a href="https://github.com/grv456" target="_blank">
