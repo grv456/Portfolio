@@ -39,4 +39,6 @@ I built a Tailwind CSS portfolio page for my GitHub profile:
 
 ## GitHub Stats
 
-Add GitHub stats here after confirming the exact GitHub username for this profile.
+![Gaurav's GitHub stats](https://github-readme-stats.vercel.app/api?username=grv456&show_icons=true&theme=tokyonight)
+
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=grv456&layout=compact&theme=tokyonight)
